@@ -57,7 +57,7 @@ def make_flickr_blueprint(
         __name__,
         client_key=api_key,
         client_secret=api_secret,
-        base_url="https://api.flickr.com/services/",
+        base_url="https://api.flickr.com/services/rest/?method=",
         request_token_url="https://www.flickr.com/services/oauth/request_token",
         access_token_url="https://www.flickr.com/services/oauth/access_token",
         authorization_url="https://www.flickr.com/services/oauth/authorize",
